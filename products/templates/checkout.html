@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Successful</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.success-box{
+    background:white;
+    padding:40px 60px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    text-align:center;
+    animation:fadeIn 0.6s ease-in-out;
+}
+
+.success-icon{
+    font-size:70px;
+    color:#28a745;
+    margin-bottom:15px;
+}
+
+h1{
+    margin:10px 0;
+    color:#222;
+}
+
+p{
+    color:#555;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 22px;
+    background:#0d6efd;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0b5ed7;
+    transform:translateY(-2px);
+}
+
+@keyframes fadeIn{
+    from{ opacity:0; transform:translateY(20px); }
+    to{ opacity:1; transform:translateY(0); }
+}
+</style>
+
+</head>
+<body>
+
+<div class="success-box">
+    <div class="success-icon">✅</div>
+    <h1>Order Placed Successfully!</h1>
+    <p>Thank you for your purchase.<br>Your items will be delivered soon.</p>
+    <a href="/" class="btn">Continue Shopping</a>
+</div>
+
+</body>
+</html>
